@@ -18,7 +18,9 @@ A simple web app that displays random motivational quotes. Perfect for learning 
 
 ## File Structure
 ├── index.html # Main HTML structure
+
 ├── style.css # Styling rules
+
 └── script.js # Quote generation logic
 ## Customization
 
