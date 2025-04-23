@@ -26,4 +26,16 @@ const quotes = [
   
   // Initialize with a random quote
   displayQuote();
-  
+
+  // Add to existing code
+const copyBtn = document.createElement('button');
+copyBtn.textContent = 'Copy Quote';
+copyBtn.id = 'copy-btn';
+document.querySelector('#quote-box').appendChild(copyBtn);
+
+copyBtn.addEventListener('click', () => {
+  const quoteToCopy = `"${quoteText.textContent}" — ${authorText.textContent}`;
+  navigator.clipboard.writeText(quoteToCopy)
+    .then(() => alert('Quote copied to clipboard!'))
+    .catch(err => console.error('Failed to copy: ', err));
+});
