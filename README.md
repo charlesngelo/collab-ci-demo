@@ -4,8 +4,6 @@
 
 A simple web app that displays random motivational quotes. Perfect for learning HTML, CSS, and JavaScript fundamentals.
 
-![Preview](https://via.placeholder.com/400x250.png?text=Quote+Generator+Preview)
-
 ## Features
 - Generates random quotes on demand
 - Clean, responsive design
